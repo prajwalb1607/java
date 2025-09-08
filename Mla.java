@@ -1,25 +1,35 @@
 class Mla{
       public static void main(String [] args){
-	  byte age=50;
+	  byte age;
 	  age=70;
-	  short legistativeAssembly=224;
-	  int price=12345;
+	  short legistativeAssembly;
+	  legistativeAssembly=1233;
+	  int price;
 	  price=16783;
-	  long contactNumber=7090356782l;
-	  char gender='m';
-	  float numberOfvoters=1234.123456f;
-	  double numberOfvotes=1234.13134;
-	  boolean isAvailable=true;
-	  float numberOfmalevoters=12345.14151f;
-	  System.out.println("age of the mla is:"+age);
-	  System.out.println("legistativeAssembly of constituent assembly is:"+legistativeAssembly);
-	  System.out.println("price of mla is invested is :"+price);
-	  System.out.println("contactNumber of the mla is :"+contactNumber);
-	  System.out.println("gender of the mla is :"+gender);
-	  System.out.println("numberOfvoters in assembly is :"+numberOfvoters);
-	  System.out.println("numberOfvotes in assembly is :"+numberOfvotes);
-	  System.out.println("mla isAvailable in assembly:"+isAvailable);
-	  System.out.println("numberOfmalevoters in assembly:"+numberOfmalevoters);
+	  long contactNumber;
+	  contactNumber=7204339603l;
+	  char gender;
+	  gender='m';
+	  float numberOfvoters;
+	  numberOfvoters=152.62661662f;
+	  
+	  double numberOfvotes;
+	  numberOfvotes=123.436737;
+	  boolean isAvailable;
+	  isAvailable=true;
+	  
+      String name;
+	  name="suresh";
+	  System.out.println(age);
+	  System.out.println(legistativeAssembly);
+	  System.out.println(price);
+	  System.out.println(contactNumber);
+	  System.out.println(gender);
+	  System.out.println(numberOfvoters);
+	  System.out.println(numberOfvotes);
+	  System.out.println(isAvailable);
+
+	    System.out.println(name);
 }
 }	  
 	  

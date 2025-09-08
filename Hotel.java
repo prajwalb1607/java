@@ -1,14 +1,24 @@
 class Hotel{
       public static void main(String [] args){
-	  byte hotelNumber=56;
-	  short addressNumber=123;
-	  int price=55768;
-	  long contact=7353829222l;
-	  char series='a';
-	  float gst=123.124566f;
-	  double sgst=12445.141661727;
-	  boolean isAvailable=true;
-	  	  System.out.println("hotelNumber is :"+hotelNumber);
+	  byte hotelNumber;
+	  hotelNumber=56;
+	  short addressNumber;
+	  addressNumber=1234;
+	  int price;
+	  price=123456;
+	  long contact;
+	  contact=7353829222l;
+	  char series;
+	  series='a';
+	  float gst;
+	  gst=123.124566f;
+	  double sgst;
+	  sgst=12445.141661727;
+	  boolean isAvailable;
+	  isAvailable=true;
+	  String name;
+	  name="krishna";
+	  System.out.println("hotelNumber is :"+hotelNumber);
 	  System.out.println("addressNumber of the hotel is  :"+addressNumber);
       System.out.println("price of food in hotel is:"+price);
 	  System.out.println("contact of hotel is  :"+contact);

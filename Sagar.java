@@ -1,0 +1,16 @@
+class Sagar {
+    public static void wakeUp() {
+        System.out.println("kumar wakes up at 7:00 AM");
+		study();
+    }
+    public static void study() {
+        System.out.println("kumar studies from 8:00 AM to 10:00 AM");
+		attendClass();
+    }
+    public static void attendClass() {
+        System.out.println("kumar attends class at 11:00 AM");
+	}
+	public static void main (String [] args){
+		wakeUp();
+	}
+}
