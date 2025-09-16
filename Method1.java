@@ -1,6 +1,5 @@
 class Method1 {
     public static byte getByteValue() {
-		System.out.println("byte:"+return);
 		return 20;
     }
 

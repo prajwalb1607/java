@@ -1,6 +1,6 @@
 class Main2{
        public static void main(String[] args) {
-        Method1.getByteValue();
+        System.out.println("Byte:"+ Method1.getByteValue());
         System.out.println("Short: " + Method1.getShortValue());
         System.out.println("Int: " + Method1.getIntValue());
         System.out.println("Long: " + Method1.getLongValue());
