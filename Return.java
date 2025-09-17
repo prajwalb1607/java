@@ -38,13 +38,21 @@ class Return{
 public static void main(String [] args){
 	byte ages=age();
 	System.out.println(ages);
-    System.out.println(year());
-	System.out.println(salary());
-	System.out.println(population());
-	System.out.println(grade());
-	System.out.println(temperature());
-	System.out.println(price());
-	System.out.println(isJavaFun());
-	System.out.println(city());
+	short years=year();
+    System.out.println(years);
+	int salaries=salary();
+	System.out.println(salaries);
+	long populations=population();
+	System.out.println(populations);
+	char grades=grade();
+	System.out.println(grades);
+	float temperatures=temperature();
+	System.out.println(temperatures);
+	double prices=price();
+	System.out.println(prices);
+	boolean fun=isJavaFun();
+	System.out.println(fun);
+	String cities=city();
+	System.out.println(cities);
 }
 }

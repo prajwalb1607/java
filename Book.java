@@ -9,7 +9,8 @@ static double sgst;
 static boolean isAvailable;
 static String name;
 public static byte size(){
-return 10;
+	size=21;
+return size;
 }
 public static short no(){
 return 1289;
