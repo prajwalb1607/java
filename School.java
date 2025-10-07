@@ -1,24 +1,44 @@
-
 class School {
-    public static void main(String[] args) {
-        byte schoolId = 101;
-        short classCount = 25;
-        int studentCount = 1200;
-        long contactNumber = 1122334455L;
-        char grade = 'A';
-        float fee = 15000.0f;
-        double donation = 25000.50;
-        boolean isPublic = false;
-        String principalName = "Mrs. Smith";
+    byte classrooms;
+    short teachers;
+    int students;
+    long regNumber;
+    char grade;
+    String schoolName;
+    String principal;
+    double fees;
 
-        System.out.println("schoolId is :" + schoolId);
-        System.out.println("classCount in school is :" + classCount);
-        System.out.println("studentCount in school is:" + studentCount);
-        System.out.println("contactNumber of school is :" + contactNumber);
-        System.out.println("grade of school is :" + grade);
-        System.out.println("fee in school is :" + fee);
-        System.out.println("donation in school is :" + donation);
-        System.out.println("school is public :" + isPublic);
-        System.out.println("principalName is :" + principalName);
+    public static void main(String args[]) {
+        School s1 = new School();
+        s1.classrooms = 25;
+        System.out.println("Number of classrooms == " + s1.classrooms);
+
+        School s2 = new School();
+        s2.teachers = 150;
+        System.out.println("Number of teachers == " + s2.teachers);
+
+        School s3 = new School();
+        s3.students = 2500;
+        System.out.println("Total students == " + s3.students);
+
+        School s4 = new School();
+        s4.regNumber = 1234567890L;
+        System.out.println("Registration number == " + s4.regNumber);
+
+        School s5 = new School();
+        s5.grade = 'A';
+        System.out.println("School grade == " + s5.grade);
+
+        School s6 = new School();
+        s6.schoolName = "National Public School";
+        System.out.println("School name == " + s6.schoolName);
+
+        School s7 = new School();
+        s7.principal = "Mr. Ramesh Kumar";
+        System.out.println("Principal name == " + s7.principal);
+
+        School s8 = new School();
+        s8.fees = 45000.50;
+        System.out.println("Annual fees == " + s8.fees);
     }
 }
