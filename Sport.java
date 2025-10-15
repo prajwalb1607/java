@@ -14,6 +14,9 @@ class Sport {
         Sport s1 = new Sport();
         s1.teamSize = 11;
         System.out.println("Team Size == " + s1.teamSize);
+		Sport s11 = new Sport();
+        s11.teamSize = 11;
+        System.out.println("Team Size == " + s1.teamSize);
 
         Sport s2 = new Sport();
         s2.totalMatches = 85;

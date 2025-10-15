@@ -37,7 +37,7 @@ public static String name(){
 	return "vision";
 }
 public static void main(String [] args){
-	System.out.println(size());
+	System.out.println(size);
 	System.out.println(no());
 	System.out.println(price());
 	System.out.println(number());

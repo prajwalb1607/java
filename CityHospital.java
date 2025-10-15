@@ -1,0 +1,3 @@
+
+class CityHospital extends Hospital {
+}

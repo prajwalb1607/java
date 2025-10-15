@@ -1,0 +1,35 @@
+class MainRunner{
+public static void main(String [] args){
+		Toyota v=new Toyota();
+		
+		System.out.println("the car name " + v.name);
+        System.out.println("the hundai series" + v.series);
+        System.out.println("Price: " + v.price);
+        System.out.println("the car is Available: " + v.isAvailable);
+		
+	    SportsEquipment s = new SportsEquipment();
+        System.out.println("\nType: " + s.type);
+        System.out.println("Quantity: " + s.quantity);
+        System.out.println("Size: " + s.size);
+        System.out.println("Price: ₹" + s.price);
+		
+		Truck t = new Truck();
+        System.out.println("\nBrand: " + t.brand);
+        System.out.println("Capacity: " + t.capacity + " tons");
+        System.out.println("Model Code: " + t.modelCode);
+        System.out.println("Price: ₹" + t.price);
+		
+		Television tv = new Television();
+        System.out.println("\nBrand: " + tv.brand);
+        System.out.println("Screen Size: " + tv.screenSize + " inches");
+        System.out.println("Type: " + tv.type);
+        System.out.println("Price: ₹" + tv.price);
+		
+		Scooter s = new Scooter();
+        System.out.println("\nBrand: " + s.brand);
+        System.out.println("Engine CC: " + s.engineCC);
+        System.out.println("Model Grade: " + s.modelGrade);
+        System.out.println("Mileage: " + s.mileage + " km/l");
+
+	}
+}
