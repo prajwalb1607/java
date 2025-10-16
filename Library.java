@@ -1,15 +1,15 @@
 class Library {
-    static void addBook() { 
+    public void addBook() { 
 	System.out.println("Adding book"); 
 	}
-    static void removeBook() {
+   public void removeBook() {
 	System.out.println("Removing book"); 
 	}
 
-    void issueBook() {
+    public void issueBook() {
 	System.out.println("Issuing book"); 
 	}
-    void returnBook() {
+    public void returnBook() {
 	System.out.println("Returning book"); 
 	}
 }

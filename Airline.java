@@ -1,8 +1,8 @@
 class Airline {
-    static void bookTicket() { 
+   public  void bookTicket() { 
 	System.out.println("Ticket booked"); 
 	}
-    static void cancelTicket() {
+    public  void cancelTicket() {
 	System.out.println("Ticket cancelled"); 
 	}
 
